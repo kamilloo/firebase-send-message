@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  php:
+    build: .
+    image: firebase-send-message
+    container_name: firebase-send-message
+    volumes:
+      - ./src:/app
